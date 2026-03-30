@@ -22,6 +22,7 @@ window.addEventListener('scroll', function() {
   const hero = document.querySelector('.hero-custom');
   if (hero) {
     let offset = window.pageYOffset;
-    hero.style.backgroundPositionY = offset * 0.7 + 'px';
+    // Shift background slightly to create depth without revealing edges
+    hero.style.backgroundPositionY = (offset * 0.4) + 'px';
   }
 });
