@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://eliminator.com.br/acessorios/</loc>
+</url>
+<url>
+<loc>https://eliminator.com.br/comparativos/</loc>
+</url>
+<url>
+<loc>https://eliminator.com.br/customizacoes/</loc>
+</url>
+<url>
+<loc>https://eliminator.com.br/especificacoes/</loc>
+</url>
+<url>
+<loc>https://eliminator.com.br/historia/</loc>
+</url>
+<url>
 <loc>https://eliminator.com.br/</loc>
+</url>
+<url>
+<loc>https://eliminator.com.br/problemas-comuns/</loc>
 </url>
 </urlset>
