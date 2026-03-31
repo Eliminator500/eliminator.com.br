@@ -8,13 +8,11 @@
 :root {
   --color-primary: #68be3b;
   --color-primary-dark: #4a8a2a;
-  --color-primary-glow: #7fff00;
-  --color-bg-primary: #0d0d0d;
-  --color-bg-secondary: #1a1a1a;
-  --color-bg-tertiary: #252525;
-  --color-text-primary: #f5f5f5;
-  --color-text-secondary: #a0a0a0;
-  --color-accent: #ff6b35;
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #0a0a0a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #888888;
+  --color-accent: #00a9c1;
   --color-border: #333333;
 }
 
@@ -575,7 +573,7 @@ button:focus, a:focus {
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
-  background-color: #0d0d0d;
+  background-color: #000000;
   font-size: 16px;
 }
 @media (min-width: 48em) {
@@ -642,7 +640,7 @@ audio:not([controls]) {
 }
 
 a {
-  color: #68be3b;
+  color: #00a9c1;
 }
 
 /* Apply focus state */
@@ -755,7 +753,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #f5f5f5;
+  color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   line-height: 1.5;
 }
@@ -813,7 +811,7 @@ p {
 u,
 ins {
   text-decoration: none;
-  border-bottom: 1px solid #f5f5f5;
+  border-bottom: 1px solid #ffffff;
 }
 u a,
 ins a {
@@ -843,7 +841,7 @@ abbr[title],
 abbr[data-original-title] {
   text-decoration: none;
   cursor: help;
-  border-bottom: 1px dotted #f5f5f5;
+  border-bottom: 1px dotted #ffffff;
 }
 
 /* blockquotes */
@@ -864,10 +862,10 @@ blockquote cite::before {
 
 /* links */
 a:visited {
-  color: rgb(126.65, 199.75, 88.4);
+  color: rgb(38.25, 181.9, 202.3);
 }
 a:hover {
-  color: rgb(141.75, 206.25, 108);
+  color: rgb(63.75, 190.5, 208.5);
   outline: 0;
 }
 
@@ -954,7 +952,7 @@ figure.third figcaption {
 /* Figure captions */
 figcaption {
   margin-bottom: 0.5em;
-  color: #a0a0a0;
+  color: #888888;
   font-family: Georgia, Times, serif;
   font-size: 0.75em;
 }
@@ -963,7 +961,7 @@ figcaption a {
   transition: all 0.2s ease-in-out;
 }
 figcaption a:hover {
-  color: rgb(141.75, 206.25, 108);
+  color: rgb(63.75, 190.5, 208.5);
 }
 
 /* Fix IE9 SVG bug */
@@ -1056,7 +1054,7 @@ form legend {
   margin-bottom: 10px;
   margin-inline-start: -7px;
   padding: 0;
-  color: #f5f5f5;
+  color: #ffffff;
   border: 0;
   white-space: normal;
 }
@@ -1091,7 +1089,7 @@ textarea {
 label {
   display: block;
   margin-bottom: 0.25em;
-  color: #f5f5f5;
+  color: #ffffff;
   cursor: pointer;
 }
 label small {
@@ -1110,8 +1108,8 @@ select {
   width: 100%;
   padding: 0.25em;
   margin-bottom: 0.5em;
-  color: #f5f5f5;
-  background-color: #0d0d0d;
+  color: #ffffff;
+  background-color: #000000;
   border: #333333;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
@@ -1238,7 +1236,7 @@ textarea:focus {
   border-color: #68be3b;
   outline: 0;
   outline: thin dotted \9 ;
-  box-shadow: inset 0 1px 3px rgba(245, 245, 245, 0.06), 0 0 5px rgba(104, 190, 59, 0.7);
+  box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.06), 0 0 5px rgba(104, 190, 59, 0.7);
 }
 
 input[type=file]:focus,
@@ -1253,7 +1251,7 @@ select:focus {
      ========================================================================== */
 .help-block,
 .help-inline {
-  color: #a0a0a0;
+  color: #888888;
 }
 
 .help-block {
@@ -1669,11 +1667,11 @@ th {
 .markdown-alert {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
-  color: #f5f5f5;
+  color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
-  background-color: rgb(48.1, 48.9, 49.5);
+  background-color: rgb(37.7, 38.5, 39.1);
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(188.5, 192.5, 195.5, 0.25);
 }
@@ -1713,7 +1711,7 @@ blockquote.notice, blockquote.markdown-alert {
 
 .notice code,
 .markdown-alert code {
-  background-color: rgb(30.55, 30.95, 31.25);
+  background-color: rgb(18.85, 19.25, 19.55);
 }
 .notice pre code,
 .markdown-alert pre code {
@@ -1729,11 +1727,11 @@ blockquote.notice, blockquote.markdown-alert {
 .markdown-alert-important {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
-  color: #f5f5f5;
+  color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
-  background-color: rgb(31.2, 48.4, 22.2);
+  background-color: rgb(20.8, 38, 11.8);
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(104, 190, 59, 0.25);
 }
@@ -1773,7 +1771,7 @@ blockquote.notice--primary, blockquote.markdown-alert-important {
 
 .notice--primary code,
 .markdown-alert-important code {
-  background-color: rgb(22.1, 30.7, 17.6);
+  background-color: rgb(10.4, 19, 5.9);
 }
 .notice--primary pre code,
 .markdown-alert-important pre code {
@@ -1789,11 +1787,11 @@ blockquote.notice--primary, blockquote.markdown-alert-important {
 .markdown-alert-note {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
-  color: #f5f5f5;
+  color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
-  background-color: rgb(22.2, 41.6, 47.6);
+  background-color: rgb(11.8, 31.2, 37.2);
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(59, 156, 186, 0.25);
 }
@@ -1833,7 +1831,7 @@ blockquote.notice--info, blockquote.markdown-alert-note {
 
 .notice--info code,
 .markdown-alert-note code {
-  background-color: rgb(17.6, 27.3, 30.3);
+  background-color: rgb(5.9, 15.6, 18.6);
 }
 .notice--info pre code,
 .markdown-alert-note pre code {
@@ -1849,11 +1847,11 @@ blockquote.notice--info, blockquote.markdown-alert-note {
 .markdown-alert-warning {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
-  color: #f5f5f5;
+  color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
-  background-color: rgb(53.2, 35.8, 11.4);
+  background-color: rgb(42.8, 25.4, 1);
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(214, 127, 5, 0.25);
 }
@@ -1893,7 +1891,7 @@ blockquote.notice--warning, blockquote.markdown-alert-warning {
 
 .notice--warning code,
 .markdown-alert-warning code {
-  background-color: rgb(33.1, 24.4, 12.2);
+  background-color: rgb(21.4, 12.7, 0.5);
 }
 .notice--warning pre code,
 .markdown-alert-warning pre code {
@@ -1909,11 +1907,11 @@ blockquote.notice--warning, blockquote.markdown-alert-warning {
 .markdown-alert-tip {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
-  color: #f5f5f5;
+  color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
-  background-color: rgb(23, 43.6, 23);
+  background-color: rgb(12.6, 33.2, 12.6);
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(63, 166, 63, 0.25);
 }
@@ -1953,7 +1951,7 @@ blockquote.notice--success, blockquote.markdown-alert-tip {
 
 .notice--success code,
 .markdown-alert-tip code {
-  background-color: rgb(18, 28.3, 18);
+  background-color: rgb(6.3, 16.6, 6.3);
 }
 .notice--success pre code,
 .markdown-alert-tip pre code {
@@ -1969,11 +1967,11 @@ blockquote.notice--success, blockquote.markdown-alert-tip {
 .markdown-alert-caution {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
-  color: #f5f5f5;
+  color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
-  background-color: rgb(58, 29.4, 28.6);
+  background-color: rgb(47.6, 19, 18.2);
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(238, 95, 91, 0.25);
 }
@@ -2013,7 +2011,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 
 .notice--danger code,
 .markdown-alert-caution code {
-  background-color: rgb(35.5, 21.2, 20.8);
+  background-color: rgb(23.8, 9.5, 9.1);
 }
 .notice--danger pre code,
 .markdown-alert-caution pre code {
@@ -2207,19 +2205,19 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   line-height: 1.5;
   text-align: center;
   text-decoration: none;
-  color: #a0a0a0;
+  color: #888888;
   border: 1px solid rgb(38.25, 38.25, 38.25);
   border-radius: 0;
 }
 .pagination li a:hover {
-  color: rgb(141.75, 206.25, 108);
+  color: rgb(63.75, 190.5, 208.5);
 }
 .pagination li a.current, .pagination li a.current.disabled {
   color: #fff;
   background: #68be3b;
 }
 .pagination li a.disabled {
-  color: rgba(160, 160, 160, 0.5);
+  color: rgba(136, 136, 136, 0.5);
   pointer-events: none;
   cursor: not-allowed;
 }
@@ -2247,12 +2245,12 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color: #a0a0a0;
+  color: #888888;
   border: 1px solid rgb(38.25, 38.25, 38.25);
   border-radius: 4px;
 }
 .pagination--pager:hover {
-  background-color: #a0a0a0;
+  background-color: #888888;
   color: #fff;
 }
 .pagination--pager:first-child {
@@ -2265,7 +2263,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   border-end-start-radius: 0;
 }
 .pagination--pager.disabled {
-  color: rgba(160, 160, 160, 0.5);
+  color: rgba(136, 136, 136, 0.5);
   pointer-events: none;
   cursor: not-allowed;
 }
@@ -2292,12 +2290,12 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   -ms-flex-align: center;
   align-items: center;
   min-height: 2em;
-  background: #0d0d0d;
+  background: #000000;
 }
 .greedy-nav a {
   display: block;
   margin: 0 1rem;
-  color: #f5f5f5;
+  color: #ffffff;
   text-decoration: none;
   -webkit-transition: none;
   transition: none;
@@ -2371,7 +2369,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   padding: 5px;
   border: 1px solid #333333;
   border-radius: 4px;
-  background: #0d0d0d;
+  background: #000000;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -2407,7 +2405,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   width: 0;
   border-style: solid;
   border-width: 0 10px 10px;
-  border-color: #0d0d0d transparent;
+  border-color: #000000 transparent;
   display: block;
   z-index: 1;
 }
@@ -2583,7 +2581,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 .toc {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   color: #7a8288;
-  background-color: #0d0d0d;
+  background-color: #000000;
   border: 1px solid #333333;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
@@ -2616,13 +2614,13 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 .toc__menu a {
   display: block;
   padding: 0.25rem 0.75rem;
-  color: #a0a0a0;
+  color: #888888;
   font-weight: bold;
   line-height: 1.5;
   border-bottom: 1px solid #333333;
 }
 .toc__menu a:hover {
-  color: #f5f5f5;
+  color: #ffffff;
 }
 .toc__menu li ul > li a {
   padding-inline-start: 1.25rem;
@@ -2657,7 +2655,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   margin-inline: 0;
   width: 100%;
   margin-top: 3em;
-  color: #a0a0a0;
+  color: #888888;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
@@ -2694,7 +2692,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 .page__footer .fab,
 .page__footer .far,
 .page__footer .fal {
-  color: #a0a0a0;
+  color: #888888;
 }
 
 .page__footer-copyright {
@@ -3371,7 +3369,7 @@ body:hover .visually-hidden button {
 .social-icons .fab,
 .social-icons .far,
 .social-icons .fal {
-  color: #f5f5f5;
+  color: #ffffff;
 }
 .social-icons .fa-behance, .social-icons .fa-behance-square, .social-icons .fa-square-behance {
   color: #1769ff;
@@ -3529,7 +3527,7 @@ body:hover .visually-hidden button {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: #0d0d0d;
+    background-color: #000000;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     pointer-events: none;
@@ -3841,7 +3839,7 @@ body {
   line-height: 1;
 }
 .page__title a {
-  color: #f5f5f5;
+  color: #ffffff;
   text-decoration: none;
 }
 .page__title + .page__meta, .page__title + .comment__date {
@@ -4057,7 +4055,7 @@ body {
    ========================================================================== */
 .page__meta, .comment__date {
   margin-top: 2em;
-  color: #a0a0a0;
+  color: #888888;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
 }
@@ -4100,7 +4098,7 @@ body {
 }
 .page__taxonomy-item:hover {
   text-decoration: none;
-  color: rgb(141.75, 206.25, 108);
+  color: rgb(63.75, 190.5, 208.5);
 }
 
 .taxonomy__section {
@@ -4123,11 +4121,11 @@ body {
 
 .taxonomy__title {
   margin-bottom: 0.5em;
-  color: #a0a0a0;
+  color: #888888;
 }
 
 .taxonomy__count {
-  color: #a0a0a0;
+  color: #888888;
 }
 
 .taxonomy__index {
@@ -4160,7 +4158,7 @@ body {
 .back-to-top {
   display: block;
   clear: both;
-  color: #a0a0a0;
+  color: #888888;
   font-size: 0.6em;
   text-transform: uppercase;
   text-align: end;
@@ -4355,7 +4353,7 @@ body {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
   font-size: 1em;
-  color: #a0a0a0;
+  color: #888888;
   border-bottom: 1px solid #333333;
 }
 .archive__subtitle + .list__item .archive__item-title {
@@ -4941,7 +4939,7 @@ body {
   list-style-type: none;
   border: 1px solid #333333;
   border-radius: 4px;
-  background: #0d0d0d;
+  background: #000000;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   cursor: default;
 }
@@ -4985,7 +4983,7 @@ body {
   width: 0;
   border-style: solid;
   border-width: 0 10px 10px;
-  border-color: #0d0d0d transparent;
+  border-color: #000000 transparent;
   z-index: 1;
 }
 @media (min-width: 64em) {
