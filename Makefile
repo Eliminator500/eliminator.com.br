@@ -5,11 +5,12 @@
 
 build:
 	podman run --rm \
-		-v "$(shell pwd):/srv/jekyll" \
+		-v "$(shell pwd):/srv/jekyll:Z" \
 		docker.io/jekyll/jekyll:latest \
-		jekyll build
+		sh -c "chmod -R 777 /srv/jekyll && jekyll build"
 
 serve:
+	touch Gemfile.lock && chmod 666 Gemfile.lock
 	podman run --rm -it \
 		-v "$(shell pwd):/srv/jekyll" \
 		-p 4000:4000 \
