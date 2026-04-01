@@ -120,12 +120,14 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
-        
-          <a class="site-logo" href="/"><img src="/assets/images/logo/logo-main.png" alt="Eliminator Brasil"></a>
-        
-        <a class="site-title" href="/">
-          Eliminator Brasil
+        <a class="site-branding" href="/">
           
+            <img src="/assets/images/logo/logo-main.png" alt="Eliminator Brasil" class="site-logo__img" onerror="this.style.display='none'; document.getElementById('site-title-fallback').style.display='inline-block';">
+          
+          <span id="site-title-fallback" class="site-title hidden-title">
+            Eliminator Brasil
+            
+          </span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
