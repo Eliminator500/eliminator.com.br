@@ -84,19 +84,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Inter:wght@400;500;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
 
-<!-- Theme Switcher Detection (Inline to prevent FOUC) -->
-<script>
-  (function() {
-    const theme = localStorage.getItem('mm_theme') || 'system';
-    if (theme === 'system') {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
-    } else {
-      document.documentElement.setAttribute('data-theme', theme);
-    }
-  })();
-</script>
-<script src="/assets/js/theme-switcher.js"></script>
+<!-- Custom Styles -->
+<link rel="stylesheet" href="/assets/css/custom.css">
 
 <!-- Technical SEO: JSON-LD Schema.org -->
 <script type="application/ld+json">
@@ -472,49 +461,9 @@ Verifique o aperto dos parafusos após os primeiros 50km rodados. A vibração n
 
     <div id="footer" class="page__footer">
       <footer>
-        <div class="footer-container">
-  <!-- Column 1: Identity & Theme -->
-  <div class="footer-col">
-    <div class="footer-logo">
-      <img src="/assets/images/logo/logo-main.png" alt="Eliminator Brasil" style="max-height: 50px;">
-    </div>
-    <p class="footer-copyright">&copy; 2026 Eliminator Brasil. <br>Todos os direitos reservados.</p>
-    
-    <div class="theme-selector-container">
-      <label for="theme-selector" style="font-size: 0.8rem; color: var(--text-muted); display: block; margin-bottom: 0.5rem;">Color Scheme</label>
-      <select id="theme-selector">
-        <option value="system">🖥️ System</option>
-        <option value="light">☀️ Light</option>
-        <option value="dark">🌙 Dark</option>
-      </select>
-    </div>
-  </div>
-
-  <!-- Column 2: Navigation -->
-  <div class="footer-col">
-    <h4>Navegação</h4>
-    <ul class="footer-links">
-      <li><a href="/historia/">Nossa História</a></li>
-      <li><a href="/noticias/">Notícias & Blog</a></li>
-      <li><a href="/especificacoes/">Guia Técnico</a></li>
-      <li><a href="/comparativos/">Comparativos</a></li>
-    </ul>
-  </div>
-
-  <!-- Column 3: Strategic -->
-  <div class="footer-col">
-    <h4>Links Estratégicos</h4>
-    <ul class="footer-links">
-      <li><a href="/acessorios/">Galeria de Acessórios</a></li>
-      <li><a href="/seguro/">Simulador de Seguro</a></li>
-      <li><a href="/privacidade/">Privacidade</a></li>
-      <li><a href="/sobre/">Sobre o Portal</a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="footer__disclaimer">
+        <div class="footer__disclaimer">
   <p><strong>Aviso Legal:</strong> Este é um portal independente dedicado à comunidade de entusiastas da Kawasaki Eliminator no Brasil. Não possuímos vínculo oficial com a Kawasaki Motores do Brasil Ltda. Todas as marcas, logotipos e nomes de produtos mencionados são de propriedade de seus respectivos donos. Este site utiliza links de afiliados do Mercado Livre para manutenção de sua infraestrutura.</p>
+  <p><a href="/sobre/">Sobre o Portal</a> | <a href="/privacidade/">Política de Privacidade</a></p>
 </div>
 
         
