@@ -1760,16 +1760,22 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 /* Custom Typography Overrides */
 body { font-family: 'Inter', sans-serif !important; }
 
-/* Header Logo & Branding Refinement */
-.site-branding { display: flex; align-items: center; text-decoration: none !important; color: #fff !important; /* Ensure title is white if it fails-back */ }
+/* Full Bleed Header Logo (100px) */
+.masthead { padding: 0 !important; /* Remove overall masthead padding */ border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
-.site-logo__img { max-height: 65px; width: auto; transition: transform 0.3s ease; }
+.masthead__inner-wrap { padding: 0 !important; max-width: none !important; /* Allow bleed to edges if needed */ }
 
-.site-branding:hover .site-logo__img { transform: scale(1.05); }
+.masthead__menu { margin: 0 !important; }
+
+.site-branding { display: flex !important; align-items: flex-start !important; /* Targeted crop start */ text-decoration: none !important; height: 100px !important; padding: 0 !important; margin: 0 !important; overflow: hidden !important; /* Clip the margins */ }
+
+.site-logo__img { height: 150px !important; /* 100px visible + 25px top + 25px bottom */ max-height: none !important; width: auto; margin-top: -25px !important; /* Ignore the top 25px */ transition: transform 0.3s ease; display: block; }
+
+.site-branding:hover .site-logo__img { transform: scale(1.02); }
 
 .hidden-title { display: none; }
 
-.greedy-nav { min-height: 80px; }
+.greedy-nav { min-height: 100px !important; padding: 0 !important; }
 
 .masthead__menu-item--lg { font-family: 'Montserrat', sans-serif !important; font-weight: 900; text-transform: uppercase; }
 
