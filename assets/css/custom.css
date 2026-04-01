@@ -1761,7 +1761,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 body { font-family: 'Inter', sans-serif !important; }
 
 /* Header Logo Styling */
-.site-logo img { max-height: 45px !important; width: auto; transition: transform 0.3s ease; }
+.site-logo img { max-height: 65px !important; width: auto; transition: transform 0.3s ease; }
 
 .site-logo:hover img { transform: scale(1.05); }
 
