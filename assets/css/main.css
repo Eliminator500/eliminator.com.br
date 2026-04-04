@@ -8,6 +8,23 @@
 
 .page__footer a { color: #66FF00 !important; }
 
+/* Social Share Custom */
+.social-share-custom { display: flex; align-items: center; gap: 15px; margin: 5px 0; font-size: 0.85em; color: #777777; }
+
+.social-share-custom .share-title { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 6px; opacity: 0.6; }
+
+.social-share-custom .share-btn { color: #777777; transition: all 0.2s ease-in-out; text-decoration: none; opacity: 0.8; }
+
+.social-share-custom .share-btn:hover { color: #66FF00; opacity: 1; transform: translateY(-2px); }
+
+.social-share-custom .share-btn i { font-size: 1.25em; }
+
+.social-share-top .social-share-custom { justify-content: flex-start; }
+
+.social-share-bottom .social-share-custom { justify-content: flex-start; }
+
+@media (max-width: 600px) { .social-share-custom { gap: 20px; } .social-share-custom .share-title { display: none; } .social-share-custom i { font-size: 1.4em; } }
+
 /* Copyright comment */
 /*! Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes Copyright 2024-2026 iBug - ibugone.com | @iBug Free for personal and commercial use under the MIT license https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE */
 /* Variables */
