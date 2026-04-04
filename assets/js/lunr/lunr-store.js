@@ -11,6 +11,12 @@ var store = [{
         "url": "/piloto/capacetes/",
         "teaser": null
       },{
+        "title": "Jaquetas Motociclísticas: O Guia de Proteção para o Piloto Eliminator",
+        "excerpt":"A Kawasaki Eliminator 500 não é apenas uma motocicleta; é uma declaração de estilo que exige um equipamento à altura. Pilotar uma cruiser exige uma ergonomia específica e uma proteção que entenda a dinâmica do asfalto urbano e das estradas. Neste guia, exploramos a ciência por trás das jaquetas de...","categories": [],
+        "tags": [],
+        "url": "/piloto/jaquetas/",
+        "teaser": null
+      },{
         "title": "Bem-vindo ao Portal Eliminator 500 Brasil!",
         "excerpt":"Seja muito bem-vindo ao primeiro portal especializado na Kawasaki Eliminator 500 no Brasil! Nosso objetivo é reunir proprietários, entusiastas e curiosos sobre este modelo que marca o retorno triunfal da linhagem Eliminator. Neste espaço, você encontrará: Notícias atualizadas sobre o mercado brasileiro. Dicas de manutenção e customização. Comparativos técnicos. Guia...","categories": ["Geral"],
         "tags": ["Boas-vindas","Kawasaki","Eliminator"],
