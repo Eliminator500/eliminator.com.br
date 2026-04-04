@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Calças para Motociclistas: Guia de Proteção para o Dono da Eliminator 500",
+        "excerpt":"Pilotar a Kawasaki Eliminator 500 é uma experiência que equilibra a herança visual das cruisers com a agilidade dinâmica das motos urbanas. Mas, para o “Piloto Eliminator”, o estilo nunca deve vir antes da segurança. No evento de uma queda, as pernas são frequentemente as primeiras áreas a sofrerem impacto...","categories": [],
+        "tags": [],
+        "url": "/piloto/calcas/",
+        "teaser": null
+      },{
         "title": "O Capacete Ideal para sua Kawasaki Eliminator 500: Guia de Compra",
         "excerpt":"Se você acabou de colocar uma Kawasaki Eliminator 500 na garagem, sabe que essa moto não é apenas um meio de transporte, mas uma declaração de estilo. Com seu motor bicilíndrico de 451cc e o chassi “long and low”, ela pede um equipamento que acompanhe sua performance urbana e o...","categories": [],
         "tags": [],
