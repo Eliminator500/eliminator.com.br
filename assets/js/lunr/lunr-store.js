@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Guia de Capacetes: Estilo e Segurança para a Eliminator 500",
+        "excerpt":"A escolha do capacete ideal para a Kawasaki Eliminator 500 vai além da simples proteção. É uma convergência entre a tradição cruiser e a engenharia moderna de alto desempenho. Neste guia, exploramos os modelos que melhor se adaptam à dinâmica “Long and Low” e à estética urbana desta máquina. A...","categories": [],
+        "tags": [],
+        "url": "/piloto/capacetes/",
+        "teaser": null
+      },{
         "title": "Bem-vindo ao Portal Eliminator 500 Brasil!",
         "excerpt":"Seja muito bem-vindo ao primeiro portal especializado na Kawasaki Eliminator 500 no Brasil! Nosso objetivo é reunir proprietários, entusiastas e curiosos sobre este modelo que marca o retorno triunfal da linhagem Eliminator. Neste espaço, você encontrará: Notícias atualizadas sobre o mercado brasileiro. Dicas de manutenção e customização. Comparativos técnicos. Guia...","categories": ["Geral"],
         "tags": ["Boas-vindas","Kawasaki","Eliminator"],
