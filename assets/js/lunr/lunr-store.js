@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Guia de Botas para a Kawasaki Eliminator 500: Engenharia e Estilo",
+        "excerpt":"A pilotagem de uma sport-cruiser como a Kawasaki Eliminator 500 exige uma compreensão profunda da interface entre o homem e a máquina. Diferente das cruisers tradicionais com comandos avançados, a Eliminator utiliza pedaleiras de montagem central (mid-mount), o que coloca uma exigência constante sobre os pés do piloto — seja...","categories": [],
+        "tags": [],
+        "url": "/piloto/botas/",
+        "teaser": null
+      },{
         "title": "Calças para Motociclistas: Guia de Proteção para o Dono da Eliminator 500",
         "excerpt":"Pilotar a Kawasaki Eliminator 500 é uma experiência que equilibra a herança visual das cruisers com a agilidade dinâmica das motos urbanas. Mas, para o “Piloto Eliminator”, o estilo nunca deve vir antes da segurança. No evento de uma queda, as pernas são frequentemente as primeiras áreas a sofrerem impacto...","categories": [],
         "tags": [],
