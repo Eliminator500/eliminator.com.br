@@ -1,6 +1,6 @@
 var store = [{
-        "title": "Guia de Capacetes: Estilo e Segurança para a Eliminator 500",
-        "excerpt":"A escolha do capacete ideal para a Kawasaki Eliminator 500 vai além da simples proteção. É uma convergência entre a tradição cruiser e a engenharia moderna de alto desempenho. Neste guia, exploramos os modelos que melhor se adaptam à dinâmica “Long and Low” e à estética urbana desta máquina. A...","categories": [],
+        "title": "O Capacete Ideal para sua Kawasaki Eliminator 500: Guia de Compra",
+        "excerpt":"Se você acabou de colocar uma Kawasaki Eliminator 500 na garagem, sabe que essa moto não é apenas um meio de transporte, mas uma declaração de estilo. Com seu motor bicilíndrico de 451cc e o chassi “long and low”, ela pede um equipamento que acompanhe sua performance urbana e o...","categories": [],
         "tags": [],
         "url": "/piloto/capacetes/",
         "teaser": null
