@@ -1,4 +1,46 @@
 var store = [{
+        "title": "Vitrine de Acessórios",
+        "excerpt":"Conforto Sissy Bar Destacável Comfort Essencial para garupa em viagens longas. Sistema de engate rápido mantém o estilo bobber na cidade. R$ 480,00 Ver no ML Proteção Protetor de Radiador (Aço Inox) Protege contra pedras e detritos em rodovias. Design colmeia não obstrui o fluxo de ar. R$ 150,00 Ver...","categories": [],
+        "tags": [],
+        "url": "/a-moto/acessorios/",
+        "teaser": null
+      },{
+        "title": "Comparativos",
+        "excerpt":"A Kawasaki Eliminator 500 ocupa um ponto doce único no mercado: leve como uma naked, confortável como uma cruiser, e com desempenho de moto esportiva. Mas como ela se compara, na prática, às suas concorrentes? Esta página reúne análises técnicas e de mercado para ajudar você a tomar a melhor...","categories": [],
+        "tags": [],
+        "url": "/a-moto/comparativos/",
+        "teaser": null
+      },{
+        "title": "Customizações e Estilo",
+        "excerpt":"A Kawasaki Eliminator 500 é uma “tela em branco”. Explore ideias para deixar a sua moto com a sua cara. Estilos Populares 1. Urban Bobber Foco em minimalismo, paralamas curtos e espelhos invertidos. 2. Tourer Express Equipada para a estrada, com bolha alta, alforges rígidos e protetores de mão. 3....","categories": [],
+        "tags": [],
+        "url": "/a-moto/customizacoes/",
+        "teaser": null
+      },{
+        "title": "Especificações Técnicas",
+        "excerpt":"Abaixo estão as especificações técnicas oficiais da Kawasaki Eliminator 500 para o mercado brasileiro (Modelo 2024/2025). Esta cruiser foi projetada para equilibrar a performance ágil das nakeds com o conforto e o estilo das motos clássicas. 🚀 Performance e Motorização O coração da Eliminator é o novo motor bicilíndrico de...","categories": [],
+        "tags": [],
+        "url": "/a-moto/especificacoes/",
+        "teaser": null
+      },{
+        "title": "Guia Técnico & Manutenção",
+        "excerpt":"Bem-vindo ao centro técnico do Eliminator Brasil. Aqui compilamos as melhores práticas e soluções para os desafios comuns enfrentados pelos proprietários. Boletins Técnicos Recentes Boletim Técnico #01: Imprecisão no Marcador de Combustível Entenda por que o marcador da sua Eliminator 500 parece 'mentir' e como lidar com a reserva precoce....","categories": [],
+        "tags": [],
+        "url": "/a-moto/guia-tecnico/",
+        "teaser": null
+      },{
+        "title": "História da Kawasaki Eliminator",
+        "excerpt":"A trajetória da Kawasaki Eliminator transcende a mera cronologia de lançamentos de modelos — ela representa a evolução de um conceito disruptivo que desafiou a dicotomia tradicional entre motocicletas de alto desempenho e máquinas de cruzeiro. Desde a sua introdução em meados da década de 1980, a linhagem Eliminator foi...","categories": [],
+        "tags": [],
+        "url": "/a-moto/historia/",
+        "teaser": null
+      },{
+        "title": "Problemas Comuns & Soluções",
+        "excerpt":"Documentamos aqui os comportamentos conhecidos da Kawasaki Eliminator 500 e como resolvê-los. 1. Marcador de Combustível Impreciso Problema: O marcador pode indicar reserva prematuramente ou demorar para atualizar após o abastecimento. Solução: Este é um comportamento conhecido. Recomendamos zerar o hodômetro parcial (Trip A) a cada abastecimento para ter uma...","categories": [],
+        "tags": [],
+        "url": "/a-moto/problemas-comuns/",
+        "teaser": null
+      },{
         "title": "Guia de Botas para a Kawasaki Eliminator 500: Engenharia e Estilo",
         "excerpt":"A pilotagem de uma sport-cruiser como a Kawasaki Eliminator 500 exige uma compreensão profunda da interface entre o homem e a máquina. Diferente das cruisers tradicionais com comandos avançados, a Eliminator utiliza pedaleiras de montagem central (mid-mount), o que coloca uma exigência constante sobre os pés do piloto — seja...","categories": [],
         "tags": [],
