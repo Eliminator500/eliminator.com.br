@@ -118,17 +118,12 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   
-  if (localStorage.getItem('cookie-consent') === 'accepted') {
-    gtag('consent', 'default', {
-      'ad_storage': 'granted',
-      'analytics_storage': 'granted'
-    });
-  } else {
-    gtag('consent', 'default', {
-      'ad_storage': 'denied',
-      'analytics_storage': 'denied'
-    });
-  }
+  const savedConsent = JSON.parse(localStorage.getItem('cookie-consent-v2') || 'null');
+  
+  gtag('consent', 'default', {
+    'analytics_storage': (savedConsent && savedConsent.analytics) ? 'granted' : 'denied',
+    'ad_storage': (savedConsent && savedConsent.marketing) ? 'granted' : 'denied'
+  });
 </script>
 
 <!-- Google Tag Manager -->
@@ -141,38 +136,96 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <!-- Cookie Consent Banner -->
-<div id="cookie-banner" style="display: none; position: fixed; bottom: 0; left: 0; width: 100%; background: #252525; color: #fff; padding: 20px; z-index: 9999; box-shadow: 0 -2px 10px rgba(0,0,0,0.5); text-align: center; font-family: 'Montserrat', sans-serif;">
-  <p style="margin-bottom: 15px;">Utilizamos cookies para melhorar sua experiência e analisar o tráfego. Ao clicar em "Aceitar", você concorda com o uso de todos os cookies conforme nossa <a href="/privacidade/" style="color: #ff4a00; text-decoration: underline;">Política de Privacidade</a>.</p>
-  <button id="accept-cookies" style="background: #ff4a00; color: #fff; border: none; padding: 10px 30px; cursor: pointer; font-weight: bold; text-transform: uppercase;">Aceitar</button>
-  <button id="decline-cookies" style="background: transparent; color: #ccc; border: 1px solid #ccc; padding: 10px 20px; cursor: pointer; margin-left: 10px;">Recusar</button>
+<div id="cookie-banner" style="display: none; position: fixed; bottom: 20px; left: 20px; right: 20px; max-width: 500px; background: #252525; color: #fff; padding: 25px; z-index: 9999; box-shadow: 0 5px 20px rgba(0,0,0,0.5); font-family: 'Montserrat', sans-serif; border-left: 4px solid #ff4a00; border-radius: 4px;">
+  <div id="banner-main-view">
+    <h3 style="margin-top: 0; color: #ff4a00;">Privacidade e Cookies</h3>
+    <p style="margin-bottom: 20px; font-size: 14px; line-height: 1.5;">Utilizamos cookies para melhorar sua experiência. Você pode aceitar todos ou configurar suas preferências.</p>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      <button id="accept-all" style="background: #ff4a00; color: #fff; border: none; padding: 10px 20px; cursor: pointer; font-weight: bold; flex: 1;">ACEITAR TODOS</button>
+      <button id="configure-cookies" style="background: transparent; color: #fff; border: 1px solid #555; padding: 10px 20px; cursor: pointer; flex: 1;">CONFIGURAR</button>
+    </div>
+    <button id="reject-all" style="background: transparent; color: #888; border: none; padding: 10px 0; cursor: pointer; width: 100%; margin-top: 10px; font-size: 12px; text-decoration: underline;">Rejeitar não essenciais</button>
+  </div>
+
+  <div id="banner-config-view" style="display: none;">
+    <h3 style="margin-top: 0; color: #ff4a00;">Preferências</h3>
+    
+    <div style="margin-bottom: 15px; border-bottom: 1px solid #444; padding-bottom: 10px;">
+      <label style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;">
+        Necessários
+        <span style="color: #888; font-size: 11px;">(Sempre ativos)</span>
+      </label>
+      <p style="font-size: 11px; color: #aaa; margin: 5px 0 0 0;">Essenciais para o funcionamento do site.</p>
+    </div>
+
+    <div style="margin-bottom: 15px; border-bottom: 1px solid #444; padding-bottom: 10px;">
+      <label style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;">
+        Analíticos
+        <input type="checkbox" id="check-analytics" checked>
+      </label>
+      <p style="font-size: 11px; color: #aaa; margin: 5px 0 0 0;">Ajudam-nos a entender como os visitantes interagem com o site.</p>
+    </div>
+
+    <div style="margin-bottom: 15px; border-bottom: 1px solid #444; padding-bottom: 10px;">
+      <label style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;">
+        Marketing/Afiliados
+        <input type="checkbox" id="check-marketing" checked>
+      </label>
+      <p style="font-size: 11px; color: #aaa; margin: 5px 0 0 0;">Utilizados para links de afiliados e métricas comerciais.</p>
+    </div>
+
+    <div style="display: flex; gap: 10px; margin-top: 15px;">
+      <button id="save-preferences" style="background: #ff4a00; color: #fff; border: none; padding: 10px 20px; cursor: pointer; font-weight: bold; width: 100%;">SALVAR PREFERÊNCIAS</button>
+    </div>
+  </div>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var banner = document.getElementById('cookie-banner');
-    var acceptBtn = document.getElementById('accept-cookies');
-    var declineBtn = document.getElementById('decline-cookies');
+    var mainView = document.getElementById('banner-main-view');
+    var configView = document.getElementById('banner-config-view');
+    
+    var acceptAllBtn = document.getElementById('accept-all');
+    var rejectAllBtn = document.getElementById('reject-all');
+    var configBtn = document.getElementById('configure-cookies');
+    var saveBtn = document.getElementById('save-preferences');
 
-    if (!localStorage.getItem('cookie-consent')) {
+    var checkAnalytics = document.getElementById('check-analytics');
+    var checkMarketing = document.getElementById('check-marketing');
+
+    function setConsent(analytics, marketing) {
+      const preferences = {
+        analytics: analytics,
+        marketing: marketing,
+        timestamp: new Date().getTime()
+      };
+      localStorage.setItem('cookie-consent-v2', JSON.stringify(preferences));
+      
+      if (typeof gtag === 'function') {
+        gtag('consent', 'update', {
+          'analytics_storage': analytics ? 'granted' : 'denied',
+          'ad_storage': marketing ? 'granted' : 'denied'
+        });
+      }
+      banner.style.display = 'none';
+      location.reload();
+    }
+
+    if (!localStorage.getItem('cookie-consent-v2')) {
       banner.style.display = 'block';
     }
 
-    acceptBtn.onclick = function() {
-      localStorage.setItem('cookie-consent', 'accepted');
-      banner.style.display = 'none';
-      if (typeof gtag === 'function') {
-        gtag('consent', 'update', {
-          'ad_storage': 'granted',
-          'analytics_storage': 'granted'
-        });
-      }
-      location.reload(); // Recarregar para garantir que os scripts de rastreamento leiam o novo estado de consentimento
+    acceptAllBtn.onclick = function() { setConsent(true, true); };
+    rejectAllBtn.onclick = function() { setConsent(false, false); };
+    
+    configBtn.onclick = function() {
+      mainView.style.display = 'none';
+      configView.style.display = 'block';
     };
 
-    declineBtn.onclick = function() {
-      localStorage.setItem('cookie-consent', 'declined');
-      banner.style.display = 'none';
-      location.reload();
+    saveBtn.onclick = function() {
+      setConsent(checkAnalytics.checked, checkMarketing.checked);
     };
   });
 </script>
