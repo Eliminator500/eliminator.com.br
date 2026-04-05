@@ -65,6 +65,12 @@ var store = [{
         "url": "/piloto/jaquetas/",
         "teaser": null
       },{
+        "title": "Guia de Luvas: Proteção e Sensibilidade para o Piloto Eliminator",
+        "excerpt":"As mãos são a interface crítica entre você e os comandos da sua Kawasaki Eliminator 500. Composta por 27 ossos e uma rede densa de terminações nervosas, a mão humana é o primeiro ponto de contato em 80% das quedas. No estilo Urban Roadster, a luva não é apenas segurança;...","categories": ["piloto"],
+        "tags": ["luvas","segurança","equipamentos","kawasaki-eliminator"],
+        "url": "/piloto/luvas/",
+        "teaser": null
+      },{
         "title": "Bem-vindo ao Portal Eliminator 500 Brasil!",
         "excerpt":"Seja muito bem-vindo ao primeiro portal especializado na Kawasaki Eliminator 500 no Brasil! Nosso objetivo é reunir proprietários, entusiastas e curiosos sobre este modelo que marca o retorno triunfal da linhagem Eliminator. Neste espaço, você encontrará: Notícias atualizadas sobre o mercado brasileiro. Dicas de manutenção e customização. Comparativos técnicos. Guia...","categories": ["Geral"],
         "tags": ["Boas-vindas","Kawasaki","Eliminator"],
