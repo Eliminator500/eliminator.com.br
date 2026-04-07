@@ -1,20 +1,56 @@
 var store = [{
-        "title": "Vitrine de Acessórios",
-        "excerpt":"Conforto Sissy Bar Destacável Comfort Essencial para garupa em viagens longas. Sistema de engate rápido mantém o estilo bobber na cidade. R$ 480,00 Ver no ML Proteção Protetor de Radiador (Aço Inox) Protege contra pedras e detritos em rodovias. Design colmeia não obstrui o fluxo de ar. R$ 150,00 Ver...","categories": [],
+        "title": "Protetor de Motor (Mata-cachorro)",
+        "excerpt":"O Protetor de Motor, popularmente conhecido como mata-cachorro, oferece segurança passiva fundamental para o piloto e para a integridade da moto. Diferenciais Segurança em Quedas: Protege as tampas laterais do motor e o tanque em caso de quedas lentas ou tombos com a moto parada. Acabamento Premium: Disponível em preto...","categories": ["Proteção"],
         "tags": [],
-        "url": "/a-moto/acessorios/",
+        "url": "/acessorios/engine-guard/",
+        "teaser": null
+      },{
+        "title": "Almofada de Gel para Assento",
+        "excerpt":"A Almofada de Gel é a solução mais rápida e eficiente para contornar a rigidez excessiva do assento original em trajetos urbanos ou viagens curtas. Características Alívio de Pressão: O gel absorve impactos e distribui o peso de forma mais uniforme. Instalação Universal: Fixação simples por meio de cintas ajustáveis,...","categories": ["Conforto"],
+        "tags": [],
+        "url": "/acessorios/gel-seat/",
+        "teaser": null
+      },{
+        "title": "Protetor de Radiador (Aço Inox)",
+        "excerpt":"O Protetor de Radiador em Aço Inox é uma camada essencial de defesa para o coração do sistema de arrefecimento da sua moto. Benefícios Proteção Ativa: Evita danos causados por pedras, insetos e detritos lançados pelo pneu dianteiro ou outros veículos. Fluxo de Ar: O design em colmeia garante que...","categories": ["Proteção"],
+        "tags": [],
+        "url": "/acessorios/radiator-guard/",
+        "teaser": null
+      },{
+        "title": "Sissy Bar Destacável Comfort",
+        "excerpt":"O Sissy Bar Destacável Comfort é um acessório indispensável para quem costuma pilotar com garupa em viagens mais longas. Por que escolher este acessório? Conforto Superior: Proporciona apoio lombar para o passageiro, reduzindo a fadiga. Engate Rápido: Sistema destacável que permite remover o encosto em segundos, mantendo o visual Bobber...","categories": ["Conforto"],
+        "tags": [],
+        "url": "/acessorios/sissy-bar-comfort/",
+        "teaser": null
+      },{
+        "title": "Bolha/Parabrisa Médio Fumê",
+        "excerpt":"A Bolha ou Parabrisa Médio no tom fumê é o upgrade ideal para quem deseja transformar a experiência de pilotagem em rodovias. Vantagens Redução de Pressão: Desvia o fluxo de ar direto do peito do piloto, permitindo manter velocidades de cruzeiro (acima de 110km/h) com muito menos esforço. Estética Dark:...","categories": ["Conforto"],
+        "tags": [],
+        "url": "/acessorios/windshield/",
+        "teaser": null
+      },{
+        "title": "Neo-Retro Racing",
+        "excerpt":"O estilo Neo-Retro Racing celebra o DNA de performance da Kawasaki. É a mistura perfeita entre o visual das pistas do passado e a tecnologia de ponta atual. Elementos de Design Pintura Verde Kawasaki: O icônico Lime Green (#66FF00) com grafismos retrô. Detalhes em Fibra de Carbono: Leveza e sofisticação...","categories": [],
+        "tags": [],
+        "url": "/customizacoes/neo-retro-racing/",
+        "teaser": null
+      },{
+        "title": "Tourer Express",
+        "excerpt":"A Tourer Express é para o piloto que não vê limites no horizonte. Equipada para longas distâncias, ela prioriza o conforto sem sacrificar o desempenho. Itens Indispensáveis Bolha Alta: Proteção aerodinâmica superior para reduzir o cansaço em rodovias. Alforges Rígidos: Espaço de carga seguro e integrado ao design da moto....","categories": [],
+        "tags": [],
+        "url": "/customizacoes/tourer-express/",
+        "teaser": null
+      },{
+        "title": "Urban Bobber",
+        "excerpt":"O estilo Urban Bobber é focado no essencial. Para quem busca uma moto com visual limpo, agressivo e pronto para as ruas da cidade. Características Principais Paralamas Curtos: Remoção de excessos para destacar os pneus. Espelhos Invertidos: Melhora a linha visual do guidão “Long &amp; Low”. Assento Solo: Foco total...","categories": [],
+        "tags": [],
+        "url": "/customizacoes/urban-bobber/",
         "teaser": null
       },{
         "title": "Comparativos",
         "excerpt":"A Kawasaki Eliminator 500 ocupa um ponto doce único no mercado: leve como uma naked, confortável como uma cruiser, e com desempenho de moto esportiva. Mas como ela se compara, na prática, às suas concorrentes? Esta página reúne análises técnicas e de mercado para ajudar você a tomar a melhor...","categories": [],
         "tags": [],
         "url": "/a-moto/comparativos/",
-        "teaser": null
-      },{
-        "title": "Customizações e Estilo",
-        "excerpt":"A Kawasaki Eliminator 500 é uma “tela em branco”. Explore ideias para deixar a sua moto com a sua cara. Estilos Populares 1. Urban Bobber Foco em minimalismo, paralamas curtos e espelhos invertidos. 2. Tourer Express Equipada para a estrada, com bolha alta, alforges rígidos e protetores de mão. 3....","categories": [],
-        "tags": [],
-        "url": "/a-moto/customizacoes/",
         "teaser": null
       },{
         "title": "Especificações Técnicas",
