@@ -95,6 +95,12 @@ var store = [{
         "url": "/piloto/capacetes/",
         "teaser": null
       },{
+        "title": "Guia de Intercomunicadores: Conectividade e Segurança na Eliminator 500",
+        "excerpt":"A pilotagem moderna exige mais do que apenas silêncio e concentração; exige conectividade inteligente. Seja para ouvir as instruções do GPS com clareza, coordenar manobras em grupo via redes Mesh, ou simplesmente desfrutar de áudio de alta fidelidade, os intercomunicadores tornaram-se um item essencial no arsenal do piloto da Kawasaki...","categories": [],
+        "tags": [],
+        "url": "/piloto/comunicadores/",
+        "teaser": null
+      },{
         "title": "Jaquetas Motociclísticas: O Guia de Proteção para o Piloto Eliminator",
         "excerpt":"A Kawasaki Eliminator 500 não é apenas uma motocicleta; é uma declaração de estilo que exige um equipamento à altura. Pilotar uma cruiser exige uma ergonomia específica e uma proteção que entenda a dinâmica do asfalto urbano e das estradas. Neste guia, exploramos a ciência por trás das jaquetas de...","categories": [],
         "tags": [],
