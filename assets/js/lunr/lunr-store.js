@@ -1,30 +1,36 @@
 var store = [{
-        "title": "Protetor de Motor (Mata-cachorro)",
-        "excerpt":"O Protetor de Motor, popularmente conhecido como mata-cachorro, oferece segurança passiva fundamental para o piloto e para a integridade da moto. Diferenciais Segurança em Quedas: Protege as tampas laterais do motor e o tanque em caso de quedas lentas ou tombos com a moto parada. Acabamento Premium: Disponível em preto...","categories": ["Proteção"],
+        "title": "Alforges e Afastadores: Capacidade de Carga",
+        "excerpt":"A Kawasaki Eliminator 500 é uma moto que convida a pegar a estrada. No entanto, sua traseira minimalista exige soluções inteligentes para o transporte de bagagem. Os Alforges são a escolha preferida dos motociclistas que buscam manter o estilo cruiser sem sacrificar a funcionalidade. Neste guia, dividimos as opções entre...","categories": ["Conforto"],
+        "tags": [],
+        "url": "/acessorios/alforges/",
+        "teaser": null
+      },{
+        "title": "Protetor de Motor e Sliders: Blindagem Essencial",
+        "excerpt":"Para o dono de uma Kawasaki Eliminator 500, a proteção não é apenas uma questão de segurança, mas de preservação de um investimento e de manutenção da estética Urban Roadster. Em quedas paradas ou em baixa velocidade, o motor e o tanque são os primeiros a atingir o solo. Neste...","categories": ["Proteção"],
         "tags": [],
         "url": "/acessorios/engine-guard/",
         "teaser": null
       },{
         "title": "Almofada de Gel para Assento",
-        "excerpt":"A Almofada de Gel é a solução mais rápida e eficiente para contornar a rigidez excessiva do assento original em trajetos urbanos ou viagens curtas. Características Alívio de Pressão: O gel absorve impactos e distribui o peso de forma mais uniforme. Instalação Universal: Fixação simples por meio de cintas ajustáveis,...","categories": ["Conforto"],
+        "excerpt":"Investir no conforto térmico e ergonômico é essencial para quem planeja usar a Eliminator 500 para além do trajeto urbano diário. Banco Confort Gilberto Bancos Ergonomia superior para transformar o assento original da Eliminator. Design ‘Urban Roadster’ com densidade de espuma otimizada. Ergonomia: Desenvolvido especificamente para o chassi da Eliminator...","categories": ["Conforto"],
         "tags": [],
         "url": "/acessorios/gel-seat/",
         "teaser": null
       },{
-        "title": "Protetor de Radiador (Aço Inox)",
-        "excerpt":"O Protetor de Radiador em Aço Inox é uma camada essencial de defesa para o coração do sistema de arrefecimento da sua moto. Benefícios Proteção Ativa: Evita danos causados por pedras, insetos e detritos lançados pelo pneu dianteiro ou outros veículos. Fluxo de Ar: O design em colmeia garante que...","categories": ["Proteção"],
+        "title": "Protetor de Radiador",
+        "excerpt":"O para-brisa e os protetores tubulares são essenciais, mas o Protetor de Radiador é a blindagem crítica contra pedras lançadas pelo pneu dianteiro ou por veículos à frente. Protetor de Radiador Scam Proteção de alta performance para a colmeia do radiador. Chapa de aço carbono de 1.5mm com acabamento epoxy....","categories": ["Proteção"],
         "tags": [],
         "url": "/acessorios/radiator-guard/",
         "teaser": null
       },{
-        "title": "Sissy Bar Destacável Comfort",
-        "excerpt":"O Sissy Bar Destacável Comfort é um acessório indispensável para quem costuma pilotar com garupa em viagens mais longas. Por que escolher este acessório? Conforto Superior: Proporciona apoio lombar para o passageiro, reduzindo a fadiga. Engate Rápido: Sistema destacável que permite remover o encosto em segundos, mantendo o visual Bobber...","categories": ["Conforto"],
+        "title": "Sissy Bar (Encosto de Garupa)",
+        "excerpt":"O Sissy Bar transforma a experiência do passageiro, permitindo viagens longas sem fadiga lombar e oferecendo um ponto de ancoragem seguro para bagagens extras. Sissy Bar Chapam (Destacável) O máximo em conforto para o garupa com visual premium. Encosto em corino e estrutura de aço reforçada. Conforto: Almofada anatômica revestida...","categories": ["Conforto"],
         "tags": [],
         "url": "/acessorios/sissy-bar-comfort/",
         "teaser": null
       },{
-        "title": "Bolha/Parabrisa Médio Fumê",
-        "excerpt":"A Bolha ou Parabrisa Médio no tom fumê é o upgrade ideal para quem deseja transformar a experiência de pilotagem em rodovias. Vantagens Redução de Pressão: Desvia o fluxo de ar direto do peito do piloto, permitindo manter velocidades de cruzeiro (acima de 110km/h) com muito menos esforço. Estética Dark:...","categories": ["Conforto"],
+        "title": "Bolhas e Para-brisas",
+        "excerpt":"A Bolha ou Parabrisa é o upgrade ideal para quem deseja transformar a experiência de pilotagem em rodovias, reduzindo a fadiga e permitindo manter velocidades de cruzeiro com conforto. Bolha/Parabrisa Médio Fumê A solução clássica para reduzir a fadiga em rodovias acima de 110km/h. Tamanho médio fumê: equilíbrio entre proteção...","categories": ["Conforto"],
         "tags": [],
         "url": "/acessorios/windshield/",
         "teaser": null
