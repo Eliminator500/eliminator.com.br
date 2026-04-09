@@ -17,6 +17,12 @@ var store = [{
         "url": "/acessorios/gel-seat/",
         "teaser": null
       },{
+        "title": "Protetor de Carenagem Inferior (Lower Fairing Guard)",
+        "excerpt":"O Protetor de Carenagem Inferior (também conhecido como Skid Plate ou Underguard) é um acessório essencial para quem busca proteção contra pedras e detritos na estrada, além de oferecer um visual muito mais robusto e “preenchido” para a parte de baixo da Eliminator 500. O detalhamento técnico e links de...","categories": [],
+        "tags": [],
+        "url": "/acessorios/lower-fairing-guard/",
+        "teaser": null
+      },{
         "title": "Protetor de Radiador",
         "excerpt":"O para-brisa e os protetores tubulares são essenciais, mas o Protetor de Radiador é a blindagem crítica contra pedras lançadas pelo pneu dianteiro ou por veículos à frente. Protetor de Radiador Scam Proteção de alta performance para a colmeia do radiador. Chapa de aço carbono de 1.5mm com acabamento epoxy....","categories": ["Proteção"],
         "tags": [],
@@ -36,19 +42,19 @@ var store = [{
         "teaser": null
       },{
         "title": "Neo-Retro Racing",
-        "excerpt":"O estilo Neo-Retro Racing celebra o DNA de performance da Kawasaki. É a mistura perfeita entre o visual das pistas do passado e a tecnologia de ponta atual. Elementos de Design Pintura Verde Kawasaki: O icônico Lime Green (#66FF00) com grafismos retrô. Detalhes em Fibra de Carbono: Leveza e sofisticação...","categories": [],
+        "excerpt":"O estilo Neo-Retro Racing celebra o DNA de performance da Kawasaki. É a mistura perfeita entre o visual das pistas do passado e a tecnologia de ponta atual. Itens Indispensáveis &amp; Modificações Pintura personalizada Emerald Green Troca de sistema de exaustão Acessórios Recomendados Escapamento Esportivo (Performance): Ronco encorpado e redução...","categories": [],
         "tags": [],
         "url": "/customizacoes/neo-retro-racing/",
         "teaser": null
       },{
         "title": "Tourer Express",
-        "excerpt":"A Tourer Express é para o piloto que não vê limites no horizonte. Equipada para longas distâncias, ela prioriza o conforto sem sacrificar o desempenho. Itens Indispensáveis Bolha Alta: Proteção aerodinâmica superior para reduzir o cansaço em rodovias. Alforges Rígidos: Espaço de carga seguro e integrado ao design da moto....","categories": [],
+        "excerpt":"A Tourer Express é para o piloto que não vê limites no horizonte. Equipada para longas distâncias, ela prioriza o conforto sem sacrificar o desempenho. Itens Indispensáveis &amp; Modificações Instalação de kit de proteção tubular Setup de iluminação auxiliar LED Acessórios Recomendados Bolha Alta (Conforto): Proteção aerodinâmica superior Alforges Rígidos...","categories": [],
         "tags": [],
         "url": "/customizacoes/tourer-express/",
         "teaser": null
       },{
         "title": "Urban Bobber",
-        "excerpt":"O estilo Urban Bobber é focado no essencial. Para quem busca uma moto com visual limpo, agressivo e pronto para as ruas da cidade. Características Principais Paralamas Curtos: Remoção de excessos para destacar os pneus. Espelhos Invertidos: Melhora a linha visual do guidão “Long &amp; Low”. Assento Solo: Foco total...","categories": [],
+        "excerpt":"O estilo Urban Bobber é focado no essencial. Para quem busca uma moto com visual limpo, agressivo e pronto para as ruas da cidade. Itens Indispensáveis &amp; Modificações Remoção completa do assento do garupa (pillion) Remoção das pedaleiras traseiras Encurtamento do paralama traseiro (chopped layout) Acessórios Recomendados Espelhos Bar-End (Estilo):...","categories": [],
         "tags": [],
         "url": "/customizacoes/urban-bobber/",
         "teaser": null
