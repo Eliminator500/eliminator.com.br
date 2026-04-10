@@ -48,7 +48,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Tourer Express",
-        "excerpt":"A Tourer Express é para o piloto que não vê limites no horizonte. Equipada para longas distâncias, ela prioriza o conforto sem sacrificar o desempenho. Itens Indispensáveis &amp; Modificações Instalação de kit de proteção tubular Setup de iluminação auxiliar LED Suporte de Bauleto Traseiro (Grelha) Acessórios Recomendados Bolha Alta (Conforto):...","categories": [],
+        "excerpt":"A Tourer Express é para o piloto que não vê limites no horizonte. Equipada para longas distâncias, ela prioriza o conforto sem sacrificar o desempenho. REVEAL REVEAL A liberdade não tem limites. GEOMETRY GEOMETRY Precisão em cada detalhe. Itens Indispensáveis &amp; Modificações Instalação de kit de proteção tubular Setup de...","categories": [],
         "tags": [],
         "url": "/customizacoes/tourer-express/",
         "teaser": null

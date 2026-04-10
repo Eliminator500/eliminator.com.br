@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:published_time" content="2026-04-09T14:39:01+00:00">
+  <meta property="article:published_time" content="2026-04-10T03:16:41+00:00">
 
 
 
@@ -530,7 +530,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Tourer Express">
     <meta itemprop="description" content="Transforme sua Eliminator 500 em uma máquina de viajar com conforto e praticidade.">
-    <meta itemprop="datePublished" content="2026-04-09T14:39:01+00:00">
+    <meta itemprop="datePublished" content="2026-04-10T03:16:41+00:00">
     
 
     <div class="page__inner-wrap">
@@ -610,6 +610,60 @@ function sharePage(title, url) {
         
 <p>A <strong>Tourer Express</strong> é para o piloto que não vê limites no horizonte. Equipada para longas distâncias, ela prioriza o conforto sem sacrificar o desempenho.</p>
 
+<div class="hero-custom" id="hero-1" style="height: 60vh; min-height: 400px; margin: 40px -4rem; width: calc(100% + 8rem);">
+    <video class="hero-video" id="video-1" autoplay="" muted="" loop="" playsinline="" poster="/assets/images/customizacoes/tourer-express.png">
+      <source src="/assets/videos/tourer-express-reveal.mp4" type="video/mp4" />
+    </video>
+
+    <div class="bg-text-outlined" style="font-size: 15vw;">REVEAL</div>
+
+    <div class="hero-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+
+    <div class="hero-content" style="padding: 0 2rem;">
+      <div class="hero-inner">
+        <h2 class="hero-title" style="font-size: 3rem; color: #66FF00; margin:0;">REVEAL</h2>
+        <p class="hero-subtitle" style="color: #fff; opacity: 1;">A liberdade não tem limites.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="hero-custom" id="hero-2" style="height: 60vh; min-height: 400px; margin: 40px -4rem; width: calc(100% + 8rem);">
+    <video class="hero-video" id="video-2" autoplay="" muted="" loop="" playsinline="" poster="/assets/images/customizacoes/tourer-express.png">
+      <source src="/assets/videos/tourer-express-generation.mp4" type="video/mp4" />
+    </video>
+
+    <div class="bg-text-outlined" style="font-size: 15vw;">GEOMETRY</div>
+
+    <div class="hero-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+
+    <div class="hero-content" style="padding: 0 2rem;">
+      <div class="hero-inner">
+        <h2 class="hero-title" style="font-size: 3rem; color: #66FF00; margin:0;">GEOMETRY</h2>
+        <p class="hero-subtitle" style="color: #fff; opacity: 1;">Precisão em cada detalhe.</p>
+      </div>
+    </div>
+  </div>
+
+<script>
+    window.addEventListener('load', function() {
+      var videos = document.querySelectorAll('.hero-video');
+      videos.forEach(function(video) {
+        video.muted = true;
+        var promise = video.play();
+        if (promise !== undefined) {
+          promise.catch(error => {
+            console.log("Autoplay prevented:", error);
+            document.body.addEventListener('click', function() {
+              video.play();
+            }, {once: true});
+          });
+        }
+      });
+    });
+  </script>
+
+<script src="/assets/js/custom.js"></script>
+
 <h2 id="itens-indispensáveis--modificações">Itens Indispensáveis &amp; Modificações</h2>
 
 <ul>
@@ -628,25 +682,25 @@ function sharePage(title, url) {
 
 <ul>
   <li>
-    <p><strong>Bolha Alta</strong> (Conforto): Proteção aerodinâmica superior</p>
+    <p><strong><a href="/acessorios/windshield/">Bolha Alta</a></strong> (Conforto): Proteção aerodinâmica superior</p>
   </li>
   <li>
-    <p><strong>Alforges Rígidos</strong> (Carga): Espaço de carga integrado</p>
+    <p><strong><a href="/acessorios/alforges/">Alforges Rígidos</a></strong> (Carga): Espaço de carga integrado</p>
   </li>
   <li>
-    <p><strong>Sissy Bar (Encosto)</strong> (Conforto): Apoio para garupa e malas extras</p>
+    <p><strong><a href="/acessorios/sissy-bar-comfort/">Sissy Bar (Encosto)</a></strong> (Conforto): Apoio para garupa e malas extras</p>
   </li>
   <li>
-    <p><strong>Baú de Alumínio 45L</strong> (Carga): Capacidade expandida e segurança para o capacete</p>
+    <p><strong><a href="/acessorios/alforges/">Baú de Alumínio 45L</a></strong> (Carga): Capacidade expandida e segurança para o capacete</p>
   </li>
   <li>
-    <p><strong>Mata-Cachorro</strong> (Segurança): Proteção do motor e suporte de luzes</p>
+    <p><strong><a href="/acessorios/engine-guard/">Mata-Cachorro</a></strong> (Segurança): Proteção do motor e suporte de luzes</p>
   </li>
   <li>
     <p><strong>Bolsa de Farol</strong> (Carga): Acesso rápido a ferramentas</p>
   </li>
   <li>
-    <p><strong>Protetor de Carenagem Inferior</strong> (Segurança): Proteção aerodinâmica e mecânica da base</p>
+    <p><strong><a href="/acessorios/lower-fairing-guard/">Protetor de Carenagem Inferior</a></strong> (Segurança): Proteção aerodinâmica e mecânica da base</p>
   </li>
 </ul>
 
