@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Bolhas e Para-brisas",
-        "excerpt":"A Bolha ou Parabrisa é o upgrade ideal para quem deseja transformar a experiência de pilotagem em rodovias, reduzindo a fadiga e permitindo manter velocidades de cruzeiro com conforto. Bolha/Parabrisa Médio Fumê A solução clássica para reduzir a fadiga em rodovias acima de 110km/h. Tamanho médio fumê: equilíbrio entre proteção...","categories": ["Conforto"],
+        "excerpt":"A Bolha ou Parabrisa é o upgrade ideal para quem deseja transformar a experiência de pilotagem em rodovias, reduzindo a fadiga e permitindo manter velocidades de cruzeiro com conforto. Givi A660 Universal Design clássico italiano com policarbonato de alta resistência. Policarbonato de 3mm com sistema de fixação universal. Dimensões: 40cm...","categories": ["Conforto"],
         "tags": [],
         "url": "/acessorios/windshield/",
         "teaser": null
