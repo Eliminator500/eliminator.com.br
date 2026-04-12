@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:published_time" content="2026-04-10T03:16:41+00:00">
+  <meta property="article:published_time" content="2026-04-12T11:22:52+00:00">
 
 
 
@@ -530,7 +530,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Neo-Retro Racing">
     <meta itemprop="description" content="Performance e herança esportiva da Kawasaki em um visual clássico moderno.">
-    <meta itemprop="datePublished" content="2026-04-10T03:16:41+00:00">
+    <meta itemprop="datePublished" content="2026-04-12T11:22:52+00:00">
     
 
     <div class="page__inner-wrap">
@@ -610,6 +610,60 @@ function sharePage(title, url) {
         
 <p>O estilo <strong>Neo-Retro Racing</strong> celebra o DNA de performance da Kawasaki. É a mistura perfeita entre o visual das pistas do passado e a tecnologia de ponta atual.</p>
 
+<div class="hero-custom" id="hero-1" style="height: 60vh; min-height: 400px; margin: 40px -4rem; width: calc(100% + 8rem);">
+    <video class="hero-video" id="video-1" autoplay="" muted="" loop="" playsinline="" poster="/assets/images/customizacoes/neo-retro-racing.png">
+      <source src="/assets/videos/neo-retro-chase.mp4" type="video/mp4" />
+    </video>
+
+    <div class="bg-text-outlined" style="font-size: 15vw;">CHASE</div>
+
+    <div class="hero-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+
+    <div class="hero-content" style="padding: 0 2rem;">
+      <div class="hero-inner">
+        <h2 class="hero-title" style="font-size: 3rem; color: #66FF00; margin:0;">CHASE</h2>
+        <p class="hero-subtitle" style="color: #fff; opacity: 1;">Performance em estado puro.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="hero-custom" id="hero-2" style="height: 60vh; min-height: 400px; margin: 40px -4rem; width: calc(100% + 8rem);">
+    <video class="hero-video" id="video-2" autoplay="" muted="" loop="" playsinline="" poster="/assets/images/customizacoes/neo-retro-racing.png">
+      <source src="/assets/videos/neo-retro-fog.mp4" type="video/mp4" />
+    </video>
+
+    <div class="bg-text-outlined" style="font-size: 15vw;">HERITAGE</div>
+
+    <div class="hero-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+
+    <div class="hero-content" style="padding: 0 2rem;">
+      <div class="hero-inner">
+        <h2 class="hero-title" style="font-size: 3rem; color: #66FF00; margin:0;">HERITAGE</h2>
+        <p class="hero-subtitle" style="color: #fff; opacity: 1;">A lenda se reinventa.</p>
+      </div>
+    </div>
+  </div>
+
+<script>
+    window.addEventListener('load', function() {
+      var videos = document.querySelectorAll('.hero-video');
+      videos.forEach(function(video) {
+        video.muted = true;
+        var promise = video.play();
+        if (promise !== undefined) {
+          promise.catch(error => {
+            console.log("Autoplay prevented:", error);
+            document.body.addEventListener('click', function() {
+              video.play();
+            }, {once: true});
+          });
+        }
+      });
+    });
+  </script>
+
+<script src="/assets/js/custom.js"></script>
+
 <h2 id="itens-indispensáveis--modificações">Itens Indispensáveis &amp; Modificações</h2>
 
 <ul>
@@ -656,6 +710,10 @@ function sharePage(title, url) {
 
   <div class="gallery-item">
     <img src="/assets/images/customizacoes/neo-retro-racing-3.png" alt="Neo-Retro Racing" style="border-radius: 8px; width: 100%; height: auto; border: 1px solid #333;" />
+  </div>
+
+  <div class="gallery-item">
+    <img src="/assets/images/customizacoes/neo-retro-racing-4.png" alt="Neo-Retro Racing" style="border-radius: 8px; width: 100%; height: auto; border: 1px solid #333;" />
   </div>
 
 </div>

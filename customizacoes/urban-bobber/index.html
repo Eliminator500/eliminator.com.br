@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:published_time" content="2026-04-10T03:16:41+00:00">
+  <meta property="article:published_time" content="2026-04-12T11:22:52+00:00">
 
 
 
@@ -530,7 +530,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Urban Bobber">
     <meta itemprop="description" content="Minimalismo e atitude urbana para sua Eliminator 500.">
-    <meta itemprop="datePublished" content="2026-04-10T03:16:41+00:00">
+    <meta itemprop="datePublished" content="2026-04-12T11:22:52+00:00">
     
 
     <div class="page__inner-wrap">
@@ -610,6 +610,43 @@ function sharePage(title, url) {
         
 <p>O estilo <strong>Urban Bobber</strong> é focado no essencial. Para quem busca uma moto com visual limpo, agressivo e pronto para as ruas da cidade.</p>
 
+<div class="hero-custom" id="hero-1" style="height: 60vh; min-height: 400px; margin: 40px -4rem; width: calc(100% + 8rem);">
+    <video class="hero-video" id="video-1" autoplay="" muted="" loop="" playsinline="" poster="/assets/images/customizacoes/urban-bobber.png">
+      <source src="/assets/videos/urban-bobber-reveal.mp4" type="video/mp4" />
+    </video>
+
+    <div class="bg-text-outlined" style="font-size: 15vw;">BOBBER</div>
+
+    <div class="hero-overlay" style="background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));"></div>
+
+    <div class="hero-content" style="padding: 0 2rem;">
+      <div class="hero-inner">
+        <h2 class="hero-title" style="font-size: 3rem; color: #66FF00; margin:0;">BOBBER</h2>
+        <p class="hero-subtitle" style="color: #fff; opacity: 1;">Minimalismo e atitude urbana.</p>
+      </div>
+    </div>
+  </div>
+
+<script>
+    window.addEventListener('load', function() {
+      var videos = document.querySelectorAll('.hero-video');
+      videos.forEach(function(video) {
+        video.muted = true;
+        var promise = video.play();
+        if (promise !== undefined) {
+          promise.catch(error => {
+            console.log("Autoplay prevented:", error);
+            document.body.addEventListener('click', function() {
+              video.play();
+            }, {once: true});
+          });
+        }
+      });
+    });
+  </script>
+
+<script src="/assets/js/custom.js"></script>
+
 <h2 id="itens-indispensáveis--modificações">Itens Indispensáveis &amp; Modificações</h2>
 
 <ul>
@@ -650,6 +687,10 @@ function sharePage(title, url) {
 
   <div class="gallery-item">
     <img src="/assets/images/customizacoes/urban-bobber-3.png" alt="Urban Bobber" style="border-radius: 8px; width: 100%; height: auto; border: 1px solid #333;" />
+  </div>
+
+  <div class="gallery-item">
+    <img src="/assets/images/customizacoes/urban-bobber-4.png" alt="Urban Bobber" style="border-radius: 8px; width: 100%; height: auto; border: 1px solid #333;" />
   </div>
 
 </div>

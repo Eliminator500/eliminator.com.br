@@ -42,7 +42,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Neo-Retro Racing",
-        "excerpt":"O estilo Neo-Retro Racing celebra o DNA de performance da Kawasaki. É a mistura perfeita entre o visual das pistas do passado e a tecnologia de ponta atual. Itens Indispensáveis &amp; Modificações Pintura personalizada Emerald Green Troca de sistema de exaustão Acessórios Recomendados Escapamento Esportivo (Performance): Ronco encorpado e redução...","categories": [],
+        "excerpt":"O estilo Neo-Retro Racing celebra o DNA de performance da Kawasaki. É a mistura perfeita entre o visual das pistas do passado e a tecnologia de ponta atual. CHASE CHASE Performance em estado puro. HERITAGE HERITAGE A lenda se reinventa. Itens Indispensáveis &amp; Modificações Pintura personalizada Emerald Green Troca de...","categories": [],
         "tags": [],
         "url": "/customizacoes/neo-retro-racing/",
         "teaser": null
@@ -54,7 +54,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Urban Bobber",
-        "excerpt":"O estilo Urban Bobber é focado no essencial. Para quem busca uma moto com visual limpo, agressivo e pronto para as ruas da cidade. Itens Indispensáveis &amp; Modificações Remoção completa do assento do garupa (pillion) Remoção das pedaleiras traseiras Encurtamento do paralama traseiro (chopped layout) Acessórios Recomendados Espelhos Bar-End (Estilo):...","categories": [],
+        "excerpt":"O estilo Urban Bobber é focado no essencial. Para quem busca uma moto com visual limpo, agressivo e pronto para as ruas da cidade. BOBBER BOBBER Minimalismo e atitude urbana. Itens Indispensáveis &amp; Modificações Remoção completa do assento do garupa (pillion) Remoção das pedaleiras traseiras Encurtamento do paralama traseiro (chopped...","categories": [],
         "tags": [],
         "url": "/customizacoes/urban-bobber/",
         "teaser": null
