@@ -5,6 +5,12 @@ var store = [{
         "url": "/acessorios/alforges/",
         "teaser": null
       },{
+        "title": "Bolhas e Para-brisas",
+        "excerpt":"A Bolha ou Parabrisa é o upgrade ideal para quem deseja transformar a experiência de pilotagem em rodovias, reduzindo a fadiga e permitindo manter velocidades de cruzeiro com conforto. Givi A660 Universal Design clássico italiano com policarbonato de alta resistência. Policarbonato de 3mm com sistema de fixação universal. Dimensões: 40cm...","categories": ["Conforto"],
+        "tags": [],
+        "url": "/acessorios/bolhas-e-parabrisas/",
+        "teaser": null
+      },{
         "title": "Protetor de Motor e Sliders: Blindagem Essencial",
         "excerpt":"Para o dono de uma Kawasaki Eliminator 500, a proteção não é apenas uma questão de segurança, mas de preservação de um investimento e de manutenção da estética Urban Roadster. Em quedas paradas ou em baixa velocidade, o motor e o tanque são os primeiros a atingir o solo. Neste...","categories": ["Proteção"],
         "tags": [],
@@ -33,12 +39,6 @@ var store = [{
         "excerpt":"O Sissy Bar transforma a experiência do passageiro, permitindo viagens longas sem fadiga lombar e oferecendo um ponto de ancoragem seguro para bagagens extras. Sissy Bar Chapam (Destacável) O máximo em conforto para o garupa com visual premium. Encosto em corino e estrutura de aço reforçada. Conforto: Almofada anatômica revestida...","categories": ["Conforto"],
         "tags": [],
         "url": "/acessorios/sissy-bar-comfort/",
-        "teaser": null
-      },{
-        "title": "Bolhas e Para-brisas",
-        "excerpt":"A Bolha ou Parabrisa é o upgrade ideal para quem deseja transformar a experiência de pilotagem em rodovias, reduzindo a fadiga e permitindo manter velocidades de cruzeiro com conforto. Givi A660 Universal Design clássico italiano com policarbonato de alta resistência. Policarbonato de 3mm com sistema de fixação universal. Dimensões: 40cm...","categories": ["Conforto"],
-        "tags": [],
-        "url": "/acessorios/windshield/",
         "teaser": null
       },{
         "title": "Neo-Retro Racing",
