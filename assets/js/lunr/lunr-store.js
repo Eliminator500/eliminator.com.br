@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Almofada de Gel para Assento",
-        "excerpt":"Investir no conforto térmico e ergonômico é essencial para quem planeja usar a Eliminator 500 para além do trajeto urbano diário. Banco Confort Gilberto Bancos Ergonomia superior para transformar o assento original da Eliminator. Design ‘Urban Roadster’ com densidade de espuma otimizada. Ergonomia: Desenvolvido especificamente para o chassi da Eliminator...","categories": ["Conforto"],
+        "excerpt":"Investir no conforto térmico e ergonômico é essencial para quem planeja usar a Eliminator 500 para além do trajeto urbano diário. Banco Comfort Gilberto Bancos Ergonomia superior com design ‘Tuck-and-Roll’ exclusivo. Acabamento premium com costura canelada e ergonomia de longa distância. Ergonomia: Desenvolvido especificamente para o chassi da Eliminator 500.*...","categories": ["Conforto"],
         "tags": [],
         "url": "/acessorios/gel-seat/",
         "teaser": null
@@ -30,13 +30,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Protetor de Radiador",
-        "excerpt":"O para-brisa e os protetores tubulares são essenciais, mas o Protetor de Radiador é a blindagem crítica contra pedras lançadas pelo pneu dianteiro ou por veículos à frente. Protetor de Radiador Scam Proteção de alta performance para a colmeia do radiador. Chapa de aço carbono de 1.5mm com acabamento epoxy....","categories": ["Proteção"],
+        "excerpt":"O para-brisa e os protetores tubulares são essenciais, mas o Protetor de Radiador é a blindagem crítica contra pedras lançadas pelo pneu dianteiro ou por veículos à frente. Protetor de Radiador Scam Proteção de alta performance para a colmeia do radiador. Chapa de aço carbono com pintura epoxy e padrão...","categories": ["Proteção"],
         "tags": [],
         "url": "/acessorios/radiator-guard/",
         "teaser": null
       },{
         "title": "Sissy Bar (Encosto de Garupa)",
-        "excerpt":"O Sissy Bar transforma a experiência do passageiro, permitindo viagens longas sem fadiga lombar e oferecendo um ponto de ancoragem seguro para bagagens extras. Sissy Bar Chapam (Destacável) O máximo em conforto para o garupa com visual premium. Encosto em corino e estrutura de aço reforçada. Conforto: Almofada anatômica revestida...","categories": ["Conforto"],
+        "excerpt":"O Sissy Bar transforma a experiência do passageiro, permitindo viagens longas sem fadiga lombar e oferecendo um ponto de ancoragem seguro para bagagens extras. Sissy Bar Chapam (Destacável) O máximo em conforto para o garupa com visual premium. Encosto em corino e estrutura de aço reforçada com bagageiro. Conforto: Almofada...","categories": ["Conforto"],
         "tags": [],
         "url": "/acessorios/sissy-bar-comfort/",
         "teaser": null
